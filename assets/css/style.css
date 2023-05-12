@@ -1,12 +1,19 @@
-body {
-    background-color: black;
-}
-
 .navbar {
     background-color: blue;
 }
-.navbar-brand, .nav-link{
+
+.navbar-brand {
     color: white;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .foto {
@@ -15,9 +22,8 @@ body {
 }
 
 .presentacion {
-    color: white;
+    color: black;
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 20px;
 }
-
