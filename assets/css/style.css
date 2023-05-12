@@ -2,6 +2,13 @@ body {
     background-color: black;
 }
 
+.navbar {
+    background-color: blue;
+}
+.navbar-brand, .nav-link{
+    color: white;
+}
+
 .foto {
     width: 150px;
     height: 170px;
@@ -13,3 +20,4 @@ body {
     font-weight: 300;
     font-size: 20px;
 }
+
