@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/13f9e47b19.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -27,82 +28,89 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="./portafolio.html">Portafolio</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                  Secciones
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Educación</a></li>
-                                    <li><a class="dropdown-item" href="#">Experiencia</a></li>
-                                    <!-- <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                    <li><a class="dropdown-item" href="#">Laboral</a></li>
+                                    <li><a class="dropdown-item" href="#">Académica</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div class="container-fluid" >
-                <div class="row">
-                    <img class="foto mt-2" src="./assets/imgs/Imagen1.jpg" alt="Foto curriculum">
-                    <h1 class="presentacion">Técnico Superior en Informática</h1>
-                </div>
-            </div>    
-        </header>
-        <!-- seccion experiencia -->
-        <section class="contenedorexperiencia">
-            <h1 class="experiencia">Experiencia Laboral</h1>
-            <div class="d-flex">
-                <ul>
-                    <li>
-                        <p>Introducción al desarrollo web Desafío LATAM</p>
-                    </li>
-                    <li>
-                        <p>Jefe Comercial Construmat S.A.</p>
-                    </li>
-                    <li>
-                        <p>Jefe de Ventas Imperial S.A.</p>
-                    </li>
-                </ul>
+        </header>    
+    <div class="container-fluid" >
+        <div class="row">
+                    <div class="col-2">
+                        <section>
+                            <div class="card-body-foto">
+                                <img class="foto mt-2 mb-2" src="./assets/imgs/Imagen1.jpg" alt="Foto curriculum"/>
+                                <p class="informacion">Rut:12345678-9</p>
+                                <p class="informacion">Dirección: _______________</p>
+                                <p class="informacion">Teléfono: +56912345678</p>
+                        </div>    
+                        </section>    
+                    </div>
+                    <div class="col-lg-10 col-sm-6">
+                        <section>
+                            <div class="card-presentacion mb-3 mt-3">
+                                <div class="card-header">
+                                    <p class="presentacion1 text-white text-center">Presentación</p>
+                                </div> 
+                                <div class="card-body">
+                                    <h1 class="presentacion mt-2 mb-2">Técnico Superior en Informática con más 10 años de trayectoria en el área comercial, rubro de
+                                        materiales de construcción, con formación en los últimos 3 años orientada en Marketing Digital
+                                        eCommerce, Gestión Ágil de Proyectos y actualmente cursando carrera de Desarrollo Full Stack
+                                        JavaScript. Amplia experiencia en planificación y desarrollo de estrategia de ventas, muy
+                                        orientado a resultados, al trabajo en equipo y al desarrollo de mercado local.
+                                    </h1>
+                                </div>    
+                            </div>
+                        </section>        
+                    </div>    
+            <!-- seccion experiencia -->
+            <div class="col-lg-12 col-sm-2">
+                <section>
+                    <div class="card-experiencia mb-3 mt-3">
+                        <div class="card-header"> <h1 class="experiencia text-white text-center">Experiencia Laboral</h1>
+                        </div>
+                        <div class="card-body">
+                            <ul>   
+                                <li><p class="card-text">Introducción al desarrollo web Desafío LATAM</p><cite><p class="text-muted">Actualmente</p></li></cite>
+                                <li><p class="card-text">Jefe Comercial Construmat S.A.</p><cite><p class="text-muted">feb. 2022 a dic. 2022</p></li></cite>
+                                <li><p class="card-text">Jefe de Ventas Imperial S.A.</p><cite><p class="text-muted">dic. 2019 a dic. 2021</p></li></cite>
+                            </ul>
+                        </div>   
+                    </div>    
+                </section>
             </div>
-        </section>
-
-        <!-- <h1>Curriculum Vitae</h1>
-        <img width="100" height="100" src="./assets/imgs/Imagen1.jpg" alt="Foto de Diego Cabré"/>
-        <hr>
-        <h2>Diego Cabré</h2>
-        <h3>Resúmen</h3>
-        <hr>
-                <p>Profesional con más de 10 años de trayectoria en posiciones
-                    ejecutivas en Retail.
-                </p>
-        <pre> 
-            Amplia experiencia en ventas, logística, gestión
-            de inventarios y pedidos. Habilidades para la negociación, gestión de
-            transporte, elaboración y control de presupuestos. Alta capacidad de
-            análisis e interpretación de cifras del negocio. Orientado al
-            entrenamiento y capacitación de equipos de trabajo, proactivo, con
-            alta orientación al servicio y espíritu de mejora continua.
-        </pre>
-        <hr>
-        <h3>Datos Personales</h3>
-            <ul>
-                <li>Nombre: Diego Antonio Cabré Perrone</li>
-                <li>Lugar de Nacimiento: Caracas, Venezuela</li>
-                <li>Fecha de Nacimiento: 18 de junio de 1982</li>
-            </ul>
-        <hr>
-        <h3>Habilidades</h3>
-                <ol>
-                    <li>Metodologia Ágil</li>
-                    <li>Atención al Cliente</li>
-                    <li>Multitarea</li>
-                </ol>
-        <hr>
-         <h3>Portafolio</h3>
-             <a href="./portafolio.html">PORTAFOLIO</a>
-         <h3>Linkedln</h3>
-            <a href="https://www.linkedin.com/in/dacp/">Mi CV</a> -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
+            <div class="col-lg-12 col-sm-6">         
+                <section>
+                    <div class="card-experiencia mb-3 mt-3">
+                        <div class="card-header"> <h1 class="educacion text-white text-center">Formación Académica</h1>
+                        </div>
+                        <div class="card-body">    
+                            <p class="card-title">Universidad:</p>
+                            <p class="card-text">Instituto Universitario de Tecnología AJS</p>
+                            <cite><p class="text-muted">Graduado 2005</p></li></cite>
+                        </div>   
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div> 
+    <footer class="f">
+        <div class="contenedorfooter">
+            <section class="footer d-flex">
+                <a href="https://www.linkedin.com/in/dacp/" class="fa-brands fa-linkedin" target="_blank"></a>
+                <a href="https://www.instagram.com/diegoacabrep/" class="fa-brands fa-instagram" target="_blank"></a>
+                <a href="https://github.com/diegocabre" class="fa-brands fa-github" target="_blank"></a>
+            </section>
+        </div>    
+    </footer>       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
     </body>
 </html>
